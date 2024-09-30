@@ -4,7 +4,7 @@
 </head>
 <body>
     <h1>Введите текст проблемы</h1>
-    <form action="/" method="post">
+    <form action="/taskcreate" method="post">
         @csrf
         <input type="text" name="header">
         <input type="text" name="problemtext">
